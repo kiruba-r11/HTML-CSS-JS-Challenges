@@ -1,0 +1,126 @@
+* {
+	font-family: 'Karla';
+	font-weight: 400;
+}
+
+.flex-container {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+}
+
+.container {
+	width: 85vw;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.mid {
+	border-radius: 10px 10px 0 0 ;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 2.5rem;
+}
+
+.main-heading {
+	color: hsl(179, 62%, 43%);
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+}
+
+.sub-heading {
+	color:  hsl(71, 73%, 54%);
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+.mid-para {
+	color:  hsl(218, 22%, 67%) ;
+	font-size: 1.1rem;
+	line-height: 1.7;
+}
+
+.left {
+	border-radius: 0 0 0 10px;
+	background-color: hsl(179, 68%, 38%);
+	padding: 2.5rem;
+}
+
+.left-main-heading {
+	color:  hsl(204, 43%, 93%);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.pricing {
+	color: hsl(204, 43%, 93%);
+	font-size: 1rem;
+	padding-left: 0.5rem;
+	margin-bottom: 0;
+}
+
+.price {
+	color: hsl(204, 43%, 93%);
+	font-size: 2.5rem;
+}
+
+.flex-box-small {
+	display: flex;
+	align-items: center;
+}
+
+.left-sub-heading {
+	color: hsl(204, 43%, 93%);
+	font-size: 1.2rem;
+	margin-top: 0.5rem;
+}
+
+.btn-dark-green {
+	background-color: hsl(71, 73%, 54%);
+	color: hsl(204, 43%, 93%);
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	margin-top: 2rem;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-dark-green:hover {
+	background-color: hsl(71, 63%, 44%);
+	color: hsl(204, 43%, 93%);
+}
+
+.right {
+	border-radius: 0 0 10px 0;
+	background-color: hsl(179, 62%, 43%);
+	padding: 2.5rem;
+}
+
+.right-main-heading {
+	color: hsl(204, 43%, 93%);
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.right-sub-heading {
+	color:  hsl(204, 43%, 93%);
+	font-size: 1rem;
+	line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+	.flex-container {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
+
+	.left {
+		border-radius: 0px;
+	}
+
+	.right {
+		border-radius: 0 0 10px 10px;
+	}
+}
