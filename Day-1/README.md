@@ -6,3 +6,10 @@
 ---
 
 
+<h3 align="center">Mobile View :iphone:</h3>
+<img align="center"src="screenshots/mobile_view.gif" alt="desktop-view">
+
+
+---
+
+
